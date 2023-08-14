@@ -23,7 +23,7 @@ public class Movie
     [StringLength(30)]
     public string? Genre { get; set; } = string.Empty;
 
-    [Range(1, 100)]
+    [Range(199, 599)]
     [DataType(DataType.Currency)]
     [Column(TypeName = "decimal(18, 2)")]
     public decimal Price { get; set; }
